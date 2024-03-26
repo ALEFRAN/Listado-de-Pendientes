@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(to\ do.jpg);
+}
+section {
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F871A7;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    width: 20%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+ul {
+    text-align: left;
+}
+
+ul li {
+    border-bottom: 1px dashed #333;
+    margin: 8px 0;
+}
+
+span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: firebrick;
+    border-radius: 100%;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: darkred;
+}
